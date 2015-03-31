@@ -1,0 +1,8 @@
+C:\Users\Sid\Source\Workspaces\march2camp\MVCFullCRUD (w4d3)\MVCFullCRUD.Model\bin\Debug\MVCFullCRUD.Model.dll
+C:\Users\Sid\Source\Workspaces\march2camp\MVCFullCRUD (w4d3)\MVCFullCRUD.Model\bin\Debug\MVCFullCRUD.Model.pdb
+C:\Users\Sid\Source\Workspaces\march2camp\MVCFullCRUD (w4d3)\MVCFullCRUD.Model\obj\Debug\MVCFullCRUD.Model.dll
+C:\Users\Sid\Source\Workspaces\march2camp\MVCFullCRUD (w4d3)\MVCFullCRUD.Model\obj\Debug\MVCFullCRUD.Model.pdb
+\\psf\Home\Desktop\MVCFullCRUD (w4d3)\MVCFullCRUD.Model\bin\Debug\MVCFullCRUD.Model.dll
+\\psf\Home\Desktop\MVCFullCRUD (w4d3)\MVCFullCRUD.Model\bin\Debug\MVCFullCRUD.Model.pdb
+\\psf\Home\Desktop\MVCFullCRUD (w4d3)\MVCFullCRUD.Model\obj\Debug\MVCFullCRUD.Model.dll
+\\psf\Home\Desktop\MVCFullCRUD (w4d3)\MVCFullCRUD.Model\obj\Debug\MVCFullCRUD.Model.pdb

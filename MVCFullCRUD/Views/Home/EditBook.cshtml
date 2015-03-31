@@ -1,0 +1,23 @@
+﻿@model MVCFullCRUD.Model.Book
+<br />
+
+<form method="post">
+    @Html.LabelFor(x => x.Title)
+    <br />
+    @Html.TextBoxFor(x => x.Title)
+    <br />
+    @Html.LabelFor(x=> x.Author)
+    <br/>
+    @Html.TextBoxFor(x=> x.Author)
+    <br/>
+
+    
+    @Html.LabelFor(x=> x.Genre)
+    <br />
+    @Html.EnumDropDownListFor(x=> x.Genre)
+    <br/>
+
+    <button class="btn btn-primary" type="submit">Submit</button>
+    
+    @Html.HiddenFor(x=> x.BookId)
+</form>

@@ -1,0 +1,14 @@
+﻿@model List<MVCFullCRUD.Model.Book>
+<br />
+<h2 style="color : olive"> <strong>Reading List with Full C.R.U.D. Functionality</ul></strong> </h2>
+@foreach (var b in Model)
+{
+    <div class="well">
+        <h1> <strong style="color : olive">Title: </strong> <strong>@b.Title</strong> </h1>
+        <h3><strong style="color : olive">Author: </strong> <strong>@b.Author</strong></h3>
+        <h3><strong style="color : olive">Genre: </strong> <strong>@b.Genre</strong></h3>
+        @Html.ActionLink("Details", "Details", new { Id = b.BookId }, new { @class = "btn btn-default" })
+    </div>
+}
+
+

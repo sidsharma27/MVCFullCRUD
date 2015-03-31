@@ -1,0 +1,14 @@
+﻿@model MVCFullCRUD.Model.Book
+@{
+    ViewBag.Title = "Details";
+}
+
+<h1 style="color : olive"> <strong>Book Details:</ul></strong> </h1>
+<br/>
+<h2> <strong style="color : olive">Title: </strong> <strong>@Model.Title</strong> </h2>
+<h3><strong style="color : olive">Author: </strong> <strong>@Model.Author</strong></h3>
+<h3><strong style="color : olive">Genre: </strong> <strong>@Model.Genre</strong></h3>
+<br/>
+
+@Html.ActionLink("Edit", "EditBook", new { id = Model.BookId }, new{ @class = "btn btn-default" })
+@Html.ActionLink("Delete", "DeleteBook", new { id = Model.BookId }, new { @class = "btn btn-default" })
